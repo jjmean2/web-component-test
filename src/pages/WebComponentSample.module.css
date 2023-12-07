@@ -1,0 +1,12 @@
+.myGreeting {
+  background-color: coral;
+  --button-color: red;
+}
+
+.myGreeting::part(button) {
+  background-color: cyan;
+}
+
+#button {
+  color: yellow;
+}
