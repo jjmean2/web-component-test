@@ -886,6 +886,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/preact-custom-element@npm:^4":
+  version: 4.0.4
+  resolution: "@types/preact-custom-element@npm:4.0.4"
+  dependencies:
+    preact: "npm:^10.0.0"
+  checksum: b336bc6b851cce17a12117b1f0a4d192114316ffc11d5a5a2c91a316a77feb8fecc0c9556ca05a97ba629f2d30673bc0a2036bfdb4ba172bd741ef7318cce44f
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.11
   resolution: "@types/prop-types@npm:15.7.11"
@@ -2601,6 +2610,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact-custom-element@npm:^4.3.0":
+  version: 4.3.0
+  resolution: "preact-custom-element@npm:4.3.0"
+  peerDependencies:
+    preact: 10.x
+  checksum: 5c74d7a3937349b9a108230f019abe972fd9a4ce3dc620b81922db06cde24aab817f5eb88fb4408ad1361642476fdbaa149a93b7a163ac36c565eed4540d6e62
+  languageName: node
+  linkType: hard
+
+"preact@npm:^10.0.0":
+  version: 10.19.2
+  resolution: "preact@npm:10.19.2"
+  checksum: 1a37e967d8947d1c82ad86cd90968536612c1463effdc5b0230a4517dc928cae8c9052513f0d5ac7bb09480b9431d129197d6c9b6924d32e32245e5ecd27cc8a
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -3129,6 +3154,7 @@ __metadata:
     "@lit/react": "npm:^1.0.2"
     "@r2wc/react-to-web-component": "npm:^2.0.3"
     "@types/babel__core": "npm:^7"
+    "@types/preact-custom-element": "npm:^4"
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.15"
     "@typescript-eslint/eslint-plugin": "npm:^6.10.0"
@@ -3138,6 +3164,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.4"
     lit: "npm:^3.1.0"
+    preact-custom-element: "npm:^4.3.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-router-dom: "npm:^6.20.1"

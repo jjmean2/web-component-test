@@ -4,7 +4,7 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       "my-greeting-native": CustomElementProps<HTMLDivElement> & {
-        myname: string | null;
+        // "order-code": string | null;
       };
     }
   }
@@ -36,6 +36,7 @@ class MyGreetingNative extends HTMLElement {
       <div>
         <h1>${this.myname}님 안녕하세요</h1>
         <button part="button" id="button">인사합시다.</button>
+        <slot></slot>
       </div>
     `;
     const shadowRoot = this.attachShadow({ mode: "open" });
